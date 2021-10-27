@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="add-files">
+            <div class="add-files__group">
+                <input type="file" id="files" name="files" multiple class="add-files__input"> 
+                <label for="files" class="add-files__label">
+                    + добавить файл
+                </label>
+            </div>
+            <div class="add-files__list">
+                <div class="file-item">
+                    <div class="file-item__preview"></div>
+                    <div class="file-item__name">
+                        Скан паспорта лицевая сторона 20_10_21.jpg
+                    </div>
+                    <div class="file-item__remove">
+                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 1L4.5 4.5M1 8L4.5 4.5M4.5 4.5L1 1M4.5 4.5L8 8" stroke="#C91717" stroke-width="1.2"/>
+                        </svg> 
+                    </div>
+                </div>
+                <div class="file-item">
+                    <div class="file-item__preview"></div>
+                    <div class="file-item__name">
+                        hjdnbshnj.png
+                    </div>
+                    <div class="file-item__remove">
+                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 1L4.5 4.5M1 8L4.5 4.5M4.5 4.5L1 1M4.5 4.5L8 8" stroke="#C91717" stroke-width="1.2"/>
+                        </svg> 
+                    </div>
+                </div>
+                <button class="add-files__btn">
+                    <div class="add-files__btn-icon">
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.89941 4.94975H4.94967M-8.07468e-05 4.94975H4.94967M4.94967 4.94975L4.94967 5.40295e-06M4.94967 4.94975V9.8995" stroke="#BABABA"/>
+                        </svg>
+                    </div>
+                    <div class="add-files__btn-text">
+                        Добавить файл
+                    </div>
+                </button>
+            </div>
+        </div> 
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
